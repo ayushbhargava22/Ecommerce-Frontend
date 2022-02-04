@@ -1,0 +1,51 @@
+* {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(220, 14%, 75%);
+  padding: 20px 0;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+.left-space {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.list-link {
+  text-decoration: none;
+  color: #1d2025;
+}
+.menu-list {
+  padding: 0 18px;
+  font-weight: 600;
+}
+.right-space {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cart-btn {
+  margin-right: 50px;
+}
+.user-icon {
+  height: 45px;
+  width: 45px;
+}
